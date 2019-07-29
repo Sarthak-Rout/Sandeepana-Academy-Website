@@ -1,0 +1,300 @@
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+html, body{
+    height:100%;
+    width:100%;
+    padding:0;
+    margin:0;
+}
+
+.header {
+    width: 100%;
+    min-height: 215px;
+    background-image: linear-gradient( 135deg, #101821 10%, #007bff 100%);
+}
+
+.bg-bluegrad {
+  height: auto;
+  background: linear-gradient( 135deg, #101821 10%, #007bff 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-bluegrad-transparent {
+  height: auto;
+  background: linear-gradient( 135deg, #002042 1%, #007bff69 100%);
+  background: -moz-linear-gradient( 135deg, #002042 1%, #007bff69 100%); /* FF 3.6+ */  
+  background: -ms-linear-gradient( 135deg, #002042 1%, #007bff69 100%); /* IE10 */  
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(1%, #002042), color-stop(100%, #007bff69)); /* Safari 4+, Chrome 2+ */  
+  background: -webkit-linear-gradient( 135deg, #007bff69 1%, #002042 100%); /* Safari 5.1+, Chrome 10+ */  
+  background: -o-linear-gradient( 135deg, #002042 10%, #007bff69 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sticky {
+  position: -webkit-sticky;
+  position: inherit;
+  top: 50px;
+}
+
+.sticky-top {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 20px;
+}
+
+@media (min-width: 780px) {
+    .sticky { position: sticky;   position: -webkit-sticky; }
+}
+
+.container {
+  height: auto;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 40px; /* Set the fixed height of the footer here */
+  line-height: 30px; /* Vertically center the text there */
+  background-image: linear-gradient( 135deg, #101821 10%, #007bff 100%);
+  box-shadow: 0px 0px 5px 1px #b3d7ff63;
+}
+
+.banner{
+ margin-top: -80px;
+ padding-left: 35px;
+ padding-right: 35px;
+}
+
+.top-wrapper {
+    height: auto;
+    background: url(../bg-banner.jpg) center center fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card {
+  position: relative;
+  border-radius: 10px;
+  background: #b3d7ff00;
+  -moz-box-shadow: 0px 0px 16px 6px rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: 0px 0px 16px 6px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 0px 16px 6px rgba(0, 0, 0, 0.15);
+  border-color: #b3d7ff29;
+  background-color:#b3d7ff5e
+}
+
+.card-title{
+  color: #0d60c2;
+}
+
+.card-text{
+  color: #112137a3;
+}
+
+
+.nav-scroller {
+  position: relative;
+  z-index: 2;
+  height: 2.75rem;
+  overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  padding-bottom: 1rem;
+  margin-top: -2px;
+  overflow-x: auto;
+  color: rgba(255, 255, 255, .75);
+  text-align: center;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+.nav-underline .nav-link {
+  padding-bottom: .75rem;
+  font-size: .875rem;
+  color: var(--secondary);
+}
+
+.nav-underline .nav-link:hover {
+  color: var(--blue);
+}
+
+.nav-underline .active {
+  font-weight: 500;
+  color: var(--gray-dark);
+}
+
+.text-white-50 { color: rgba(255, 255, 255, .5); }
+
+.bg-purple { background-color: var(--purple); }
+
+.border-bottom { border-bottom: 1px solid #e5e5e5; }
+
+.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+
+.lh-100 { line-height: 1; }
+.lh-125 { line-height: 1.25; }
+.lh-150 { line-height: 1.5; }
+
+.wrapper {
+    padding: 20px 0;
+}
+
+/*Form css End*/
+.top-2-combine{background-color: #0a334b;}
+.marg50{margin-top: 50px;}
+.scholarship-bg{
+  height: auto;
+  background: url(../images/bg-2.jpg) center center fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.heading{margin-bottom: 20px;}
+.heading h2{font-size: 36px; color: #2e2e2e; position: relative; font-weight: 700;	margin-bottom: 0;	margin-top: 5px;}
+.heading-white h2{	color: #2fa7eb;	font-weight: 700;}
+.heading h2 span{position: absolute; top: 50%;	left: 0;	z-index: -1;	transform: translate(-50%,-50%);	-webkit-transform: translate(-50%,-50%);
+}
+.heading p{	font-size: 16px; letter-spacing: 0.4px;	color: #2f2d2d;	margin-top: 10px; font-weight: 400;	font-family: 'Roboto Slab', serif;}
+.heading-white p{	color: #fff;	font-weight: 300;}
+
+
+.form {
+  width: 100%;
+  max-width: 400px;
+  min-height: 550px;
+  position: relative;
+  margin: -25px 0 -15px;
+  float: right;
+  z-index: 2;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 16px 6px rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: 0px 0px 16px 6px rgba(0, 0, 0, 0.15);
+}
+
+.formHeader {
+  width: 100%;
+  float: left;
+  padding-top: 20px;
+}
+
+.formBody {
+  padding: 20px 40px 40px;
+  width: 100%;
+  float: left;
+}
+
+.formBody .form-group {
+  padding-left: 50px;
+  margin: 0 0 16px;
+  position: relative;
+  border: none;
+  background-color: #ebebeb;
+  border-radius: 999px;
+}
+
+.formBody .form-group figure {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 50px;
+  text-align: center;
+  height: 46px;
+  line-height: 46px;
+}
+
+.formBody .form-group .form-control {
+  height: 46px;
+  padding: 0 0 0 0;
+  border: none;
+  font-size: 14px;
+  color: #2e2e2e;
+  box-shadow: none;
+  background-color: transparent;
+  -webkit-box-shadow: none;
+}
+
+select.form-control {
+    background-image: url(../images/down-arrow.png);
+    background-repeat: no-repeat;
+    background-position: right 20px center;
+}
+
+select {
+
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+}
+
+select::-ms-expand {
+    display: none;
+}
+
+.submit {
+  color: #fff;
+  height: 46px;
+  line-height: 46px;
+  padding: 0 15px;
+  width: 100%;
+  margin: 10px auto 0;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 0.4px;
+  border-radius: 999px;
+  background-color: #2fa7eb;
+  box-shadow: 0px 15px 50px 0 rgba(0, 189, 253, 0.22), 0px 10px 15px -5px rgba(0, 189, 253, 0.18);
+  -webkit-box-shadow: 0px 15px 50px 0 rgba(0, 189, 253, 0.22), 0px 10px 15px -5px rgba(0, 189, 253, 0.18);
+}
+
+
+.num{
+	font-size: 48px;
+	color: #008aff;
+	font-weight: 500;
+	line-height: 50px;
+
+}
+.qualified{
+	margin-top: 20px;
+}
+.qualified span{
+	color: #474c52;
+}
+.qualified h3{
+	font-weight: 600;
+	font-size: 18px;
+	color: #2e2e2e;
+	margin:5px 0 0;
+}
+
+.institute-centers{
+	margin:30px 0 10px;
+}
+.institute-centers img{
+	max-width: 100%;
+}
+
+
+.border-left {
+    border-left: 5px solid #5bc0de!important;
+    border-radius: .25rem;
+}
+
+.p15{
+  padding:15px;
+}
